@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f8fff9, #e9f9ee);
+  color: #2f2f2f;
+}
+
+.Mainheading {
+  display: block;
+  background-color: rgb(212, 255, 223);
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.heading {
+  font-weight: bold;
+  color: rgb(55, 55, 55);
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.heading h1 {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+.navigation {
+  display: flex;
+  font-size: 18px;
+  gap: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 10px 0 15px;
+  margin-bottom: 2px;
+}
+
+.navigation a:hover {
+  color: #0a7f3e;
+  font-weight: bold;
+}
+
+.Intro {
+  font-family:'Segoe UI', sans-serif;
+  color: rgb(55, 55, 55);
+  font-weight: 500;
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.Content {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 18px;
+  margin-top: 30px;
+  margin-bottom:100px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.sale {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 15px;
+}
+
+.product-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: linear-gradient(145deg, #f7fff9, #e8f8eb);
+  border: 1px solid #d8f4de;
+  border-radius: 14px;
+  padding: 15px;
+}
+
+.product-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin: 0 0 10px;
+  color: #4b4b4b;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5a5a5a;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #0a7f3e;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.Buy {
+  color: white;
+  background-color: #142c1f;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  border:none;
+  padding:10px;
+  border-radius: 10px;
+  background-color: #c3efd1;
+  color: #2f2f2f;
+}
+.price{
+  font-weight:550;
+}
